@@ -8,7 +8,6 @@ public class Main {
 		ArrayList<Item> items = ItemsDAO.findByMinimumPrice(1);
 		for(Item item : items) {
 			System.out.println(item.getName()+item.getPrice()+item.getWeight());
-			System.out.println("test01121624");
 		}
 	}
 }
